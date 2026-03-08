@@ -2,7 +2,7 @@
 
 GeoAI Forest Intelligence WebGIS Dashboard
 
-## Live Demo
+## Forest
 https://harshal2589950.github.io/Maharashtra-Forest-WebGIS/
 
 ## Source Code
