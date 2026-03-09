@@ -199,7 +199,7 @@ document.getElementById("compare2").appendChild(c2);
 
   layer.on("mouseout", function(e){
 
-    // जर district click केलेला नसेल तर normal style
+    
     geojsonLayer.resetStyle(e.target);
 
   });
@@ -590,7 +590,7 @@ async function downloadReport() {
   doc.save(name + "_Forest_Report.pdf");
 }
 // ===============================
-// 🌳 DAY 61 - FOREST RANGE FILTER
+// 🌳 DAY 70 - FOREST RANGE FILTER
 // ===============================
 
 function applyForestFilter() {
@@ -634,7 +634,7 @@ function resetForestFilter() {
 
 }
 // ===============================
-// 🏆 DAY 61 - LEADERBOARD SYSTEM
+// 🏆 DAY 70 - LEADERBOARD SYSTEM
 // ===============================
 
 function generateLeaderboard() {
@@ -696,7 +696,7 @@ function zoomToDistrict(districtName){
 // Call once on load
 generateLeaderboard();
 // ===============================
-// 🔍 DAY 61 - ADVANCED QUERY BUILDER
+// 🔍 DAY 70 - ADVANCED QUERY BUILDER
 // ===============================
 
 function getCategory(value){
@@ -1150,3 +1150,4 @@ else{
 }
 
 }
+
